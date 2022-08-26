@@ -17,23 +17,23 @@ class BannerSeeder extends Seeder
         $banners = [
             [
                 'image' => 'frontend/img/banner4.jpg',
-                'title' => 'Pandu Wisata Tour Lembongan',
+                'title' => 'Ready To Start Your Journey',
                 'caption' => 'Enjoy your trip with us',
-                'link' => 'https://panduwisatatour.com',
+                'link' => 'https://lembonganoceanadventure.com',
                 'button_text' => 'Learn More',
             ],
             [
                 'image' => 'frontend/img/banner3.jpg',
                 'title' => 'Snorkeling Trip',
                 'caption' => 'Enjoy your snorkeling trip with us',
-                'link' => 'https://panduwisatatour.com',
+                'link' => 'https://lembonganoceanadventure.com',
                 'button_text' => 'Go Snorkeling',
             ],
             [
                 'image' => 'frontend/img/banner2.jpg',
                 'title' => 'Let\'s Go Tour Island',
                 'caption' => 'Enjoy your tour island with us',
-                'link' => 'https://panduwisatatour.com',
+                'link' => 'https://lembonganoceanadventure.com',
                 'button_text' => 'Go Around Island',
             ],
         ];

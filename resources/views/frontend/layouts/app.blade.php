@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cheap Nusa Penida Lemongan Tour - Pandu Wisata Tour Lembongan</title>
+    <title>Cheap Nusa Penida Lemongan Tour - Lembongan Ocean Adventure</title>
 
     <!-- All CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
@@ -15,12 +15,27 @@
     <link rel="stylesheet" href="{{ asset('plugin/aos-master/dist/aos.css') }}">
     @stack('styles')
     <style>
+        body{
+            overflow-x: hidden !important;
+        }
         #btn-back-to-top {
             position: fixed;
             bottom: 20px;
             right: 20px;
             display: none;
             z-index: 1;
+        }
+    </style>
+
+    <style>
+        .img-gradient:before {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            background: linear-gradient(to top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.8) 100%);
         }
     </style>
 </head>
@@ -34,8 +49,8 @@
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container">
-            <a class="navbar-brand d-none d-md-block" href="{{ Request::is('/') ? '#' : '/' }}">Pandu Wisata Tour Lembongan</a>
-            <a class="navbar-brand d-block d-md-none" href="{{ Request::is('/') ? '#' : '/' }}">Pandu Wisata</a>
+            <a class="navbar-brand d-none d-md-block" href="{{ Request::is('/') ? '#' : '/' }}">Lembongan Ocean Adventure</a>
+            <a class="navbar-brand d-block d-md-none" href="{{ Request::is('/') ? '#' : '/' }}">Lembongan <br> Ocean Adventure </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -96,7 +111,7 @@
                 alert('Please fill in your message')
             } else {
                 const url =
-                    `https://api.whatsapp.com/send?phone=6281934316124&text=Hi Pandu Wisata Tour Lembongan, my name ${inquiryWaName.value}, ${inquiryWaMessage.value}`
+                    `https://api.whatsapp.com/send?phone=6281317368610&text=Hi Lembongan Ocean Adventure, my name ${inquiryWaName.value}, ${inquiryWaMessage.value}`
                 window.open(url, '_blank').focus();
             }
         })

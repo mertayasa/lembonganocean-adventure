@@ -13,7 +13,7 @@ body {
 	min-height: 300px;
 }
 .carousel-caption {
-	bottom: 220px;
+	bottom: 35vh;
 	z-index: 2;
 }
 .carousel-caption h5 {
@@ -97,7 +97,7 @@ body {
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	.carousel-caption {
-		bottom: 370px;
+		bottom: 40vh;
 	}
 	.carousel-caption p {
 		width: 100%;
@@ -114,7 +114,7 @@ body {
 		text-align: center;
 	}
 	.carousel-caption {
-		bottom: 125px;
+		bottom: 40vh;
 	}
 	.carousel-caption h5 {
 		font-size: 17px;

@@ -8,7 +8,7 @@
     @include('frontend.homepage.header')
     @include('frontend.homepage.about')
     @include('frontend.homepage.service')
-    @include('frontend.homepage.package')
+    {{-- @include('frontend.homepage.package') --}}
     {{-- @include('frontend.homepage.destination') --}}
     @include('frontend.homepage.contact')
 @endsection
