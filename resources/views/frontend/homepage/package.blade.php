@@ -23,7 +23,7 @@
                             <div class="mt-auto">
                                 <div class="row">
                                     <div class="col-6 mb-2 mb-md-0">
-                                        <a href="https://api.whatsapp.com/send?phone=6281934316124&text=Hi Pandu Wisata Tour Lembongan, i want to ask about {{ $package->title }}" target="_blank" class="btn bg-success text-white" style="width:100%"> <i class="fa-brands fa-whatsapp"></i> Book Now</a>
+                                        <a href="https://api.whatsapp.com/send?phone=6281934316124&text=Hi Lembongan Ocean Adventure, i want to ask about {{ $package->title }}" target="_blank" class="btn bg-success text-white" style="width:100%"> <i class="fa-brands fa-whatsapp"></i> Book Now</a>
                                     </div>
                                     <div class="col-6">
                                         <a href="{{ route('package.show', $package->slug) }}" target="_blank" class="btn bg-warning text-dark" style="width:100%">Learn More</a>

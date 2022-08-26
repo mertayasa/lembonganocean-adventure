@@ -85,7 +85,7 @@
                             <img src="{{ asset('adminkit.png') }}" alt="Logo App" class="img-fluid " width="132"
                                 height="132" />
                         </div> --}}
-                        <h1 class="h2 pt-3 pb-3">Pandu Wisata Tour Lembongan</h1>
+                        <h1 class="h2 pt-3 pb-3">Lembongan Ocean Adventure</h1>
                     </div>
 
                     <div class="card">

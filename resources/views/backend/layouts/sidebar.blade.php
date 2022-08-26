@@ -5,7 +5,7 @@
                 <img class="img-fluid" src="{{ asset('adminkit.png') }}" alt="Responsive image" width="100"
                     height="100">
             </center> --}}
-            <h3 class="text-white text-center"> <b>Pandu Wisata Tour Lembongan</b> </h3>
+            <h3 class="text-white text-center"> <b>Lembongan Ocean Adventure</b> </h3>
         </div>
 
         <ul class="sidebar-nav">

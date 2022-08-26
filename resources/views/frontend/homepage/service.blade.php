@@ -17,7 +17,7 @@
                         <h3 class="card-title">Snorkeling</h3>
                         <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
                             eligendi modi temporibus alias iste. Accusantium?</p>
-                        <a href="https://api.whatsapp.com/send?phone=6281934316124&text=Hi Pandu Wisata Tour Lembongan, i want to ask about snorkeling" target="_blank" class="btn bg-success text-white"> <i class="fa-brands fa-whatsapp"></i> Chat Now</a>
+                        <a href="https://api.whatsapp.com/send?phone=6281934316124&text=Hi Lembongan Ocean Adventure, i want to ask about snorkeling" target="_blank" class="btn bg-success text-white"> <i class="fa-brands fa-whatsapp"></i> Chat Now</a>
                     </div>
                 </div>
             </div>
@@ -28,7 +28,7 @@
                         <h3 class="card-title">Motorbike</h3>
                         <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
                             eligendi modi temporibus alias iste. Accusantium?</p>
-                        <a href="https://api.whatsapp.com/send?phone=6281934316124&text=Hi Pandu Wisata Tour Lembongan, i want to ask about motorbike rental" target="_blank" class="btn bg-success text-white"> <i class="fa-brands fa-whatsapp"></i> Chat Now</a>
+                        <a href="https://api.whatsapp.com/send?phone=6281934316124&text=Hi Lembongan Ocean Adventure, i want to ask about motorbike rental" target="_blank" class="btn bg-success text-white"> <i class="fa-brands fa-whatsapp"></i> Chat Now</a>
                     </div>
                 </div>
             </div>
@@ -39,7 +39,7 @@
                         <h3 class="card-title">Tour Island</h3>
                         <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
                             eligendi modi temporibus alias iste. Accusantium?</p>
-                        <a href="https://api.whatsapp.com/send?phone=6281934316124&text=Hi Pandu Wisata Tour Lembongan, i want to ask about tour island" target="_blank" class="btn bg-success text-white"> <i class="fa-brands fa-whatsapp"></i> Chat Now</a>
+                        <a href="https://api.whatsapp.com/send?phone=6281934316124&text=Hi Lembongan Ocean Adventure, i want to ask about tour island" target="_blank" class="btn bg-success text-white"> <i class="fa-brands fa-whatsapp"></i> Chat Now</a>
                     </div>
                 </div>
             </div>

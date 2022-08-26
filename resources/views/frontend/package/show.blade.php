@@ -33,7 +33,7 @@
                 {!! $package->full_description !!}
             </div>
             <div class="cta">
-                <a href="https://api.whatsapp.com/send?phone=6281934316124&text=Hi Pandu Wisata Tour Lembongan, i want to ask about {{ $package->title }}" target="_blank" class="btn bg-success text-white"> <i class="fa-brands fa-whatsapp"></i> Book Now</a>
+                <a href="https://api.whatsapp.com/send?phone=6281934316124&text=Hi Lembongan Ocean Adventure, i want to ask about {{ $package->title }}" target="_blank" class="btn bg-success text-white"> <i class="fa-brands fa-whatsapp"></i> Book Now</a>
             </div>
             <hr>
             <h5 class="mt-3 mt-md-4">Similiar Package : </h5>

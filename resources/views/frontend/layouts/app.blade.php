@@ -9,7 +9,7 @@
     <title>Cheap Nusa Penida Lemongan Tour - Lembongan Ocean Adventure</title>
 
     @stack('meta')
-    
+
     <!-- All CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
     <link rel="stylesheet" href="{{ asset('frontend/css/bootstrap.min.css') }}">
@@ -90,7 +90,7 @@
     <!-- footer starts -->
     <footer class="bg-dark p-2 text-center">
         <div class="container">
-            <p class="text-white">All Right Reserved By Pandu Wisata Tour Lembongan</p>
+            <p class="text-white">All Right Reserved By Lembongan Ocean Adventure</p>
         </div>
     </footer>
     <!-- footer ends -->
