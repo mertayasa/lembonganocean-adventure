@@ -83,7 +83,7 @@
       </style>
 @endpush
 <!-- portfolio strats -->
-<section id="galleries" class="galleries section-padding pt-0">
+<section id="galleries" class="galleries section-padding pt-0 pb-0">
     <div class="container">
         <div class="row" data-aos="fade-up">
             <div class="col-md-12">
@@ -94,7 +94,7 @@
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row px-3">
             <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper thumbSwiper">
             <div class="swiper-wrapper">
               <div class="swiper-slide main-swiper">
