@@ -23,17 +23,17 @@
                                 <tr>
                                     <td>Email</td>
                                     <td>:</td>
-                                    <td style="word-wrap: break-word;"> <a href="mailto:">test test test @gmail.com</a> </td>
+                                    <td style="word-wrap: break-word;"> <a href="mailto:">@wayanadisutiantara.com</a> </td>
                                 </tr>
                                 <tr>
                                     <td>Facebook</td>
                                     <td>:</td>
-                                    <td>Adi Putra Tour</td>
+                                    <td>Warung Paradise</td>
                                 </tr>
                                 <tr>
                                     <td>Instagram</td>
                                     <td>:</td>
-                                    <td>@----</td>
+                                    <td>@wayan_adis84</td>
                                 </tr>
                             </table>
                         </div>
