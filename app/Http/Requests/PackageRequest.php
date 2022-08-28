@@ -30,7 +30,7 @@ class PackageRequest extends FormRequest
             'title' => ['required', 'string', 'max:255'],
             'price_start' => ['required', 'numeric'],
             'price_end' => ['nullable', 'numeric'],
-            'short_description' => ['required', 'string', 'max:255'],
+            'short_description' => ['required', 'string', 'max:500'],
             'full_description' => ['required', 'string'],
         ];
 
