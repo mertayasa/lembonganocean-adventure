@@ -16,7 +16,7 @@
 
         @media only screen and (max-width: 767px){
             .carousel-caption {
-                bottom: 21vh;
+                bottom: 20vh;
             }
         }
     </style>
