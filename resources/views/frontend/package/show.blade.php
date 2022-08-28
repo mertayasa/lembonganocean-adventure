@@ -8,6 +8,17 @@
             border-style: solid;
             border-width: 1px;
         }
+
+        .carousel-caption {
+            bottom: 20vh;
+            z-index: 2;
+        }
+
+        @media only screen and (max-width: 767px){
+            .carousel-caption {
+                bottom: 21vh;
+            }
+        }
     </style>
 @endpush
 
