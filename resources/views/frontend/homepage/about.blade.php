@@ -1,6 +1,6 @@
 <!-- about section starts -->
 <section id="about" class="about section-padding" data-aos="fade-up" style="
-    background: url('{{ asset('frontend/img/banner2.jpg') }}'), rgba(60, 60, 60, 0.5);
+    background: url('{{ asset('frontend/img/turtle-bg-about.jpeg') }}'), rgba(60, 60, 60, 0.5);
     background-size: cover;
     background-blend-mode: multiply;
 ">
