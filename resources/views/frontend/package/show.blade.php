@@ -14,6 +14,11 @@
             z-index: 2;
         }
 
+        .pacakage-detail > p > img {
+            max-width: 100%;
+            height: 100%;
+        }
+
         @media only screen and (max-width: 767px){
             .carousel-caption {
                 bottom: 20vh;
