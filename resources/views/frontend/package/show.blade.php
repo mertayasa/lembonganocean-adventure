@@ -1,5 +1,22 @@
 @extends('frontend.layouts.app')
 
+@push('meta')
+    <title>{{ $package->title ?? 'Snorkling nusa lembongan and nusa penida trip' }} - Lembongan Ocean Adventure</title>
+    <meta name="description" content="Book now! {{ $package->title ?? 'Snorkling nusa lembongan and nusa penida trip' }}">
+    <meta name="keywords" content="nusa penida, nusa penida tour, blue lagoon lembongan, yellow bridge, nusa lembongan, nusa lembongan tour, dream beach lembongan, snorkeling nusa penida, manta, kelingking, atuh, broken beach, crystal bay">
+
+    <meta property="og:url" content="{{ ('/') }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="{{ $package->title ?? 'Snorkling nusa lembongan and nusa penida trip' }} - Lembongan Ocean Adventure" />
+    <meta property="og:description" content="Book now! {{ $package->short_description ?? 'Snorkling nusa lembongan and nusa penida trip' }}" />
+    <meta property="og:image" content="{{ $package->getImage() }}" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="{{ $package->title ?? 'Snorkling nusa lembongan and nusa penida trip' }} - Lembongan Ocean Adventure" />
+    <meta name="twitter:description" content="Book now! {{ $package->short_description ?? 'Snorkling nusa lembongan and nusa penida trip' }}" />
+    <meta name="twitter:image" content="{{ $package->getImage() }}" />
+@endpush
+
 @push('styles')
     <link rel="stylesheet" href="{{ asset('frontend/css/home.css') }}">
     <style>
@@ -31,7 +48,7 @@
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active" style="height: 60vh">
-                <img src="{{ $package->getImage() }}" class="d-block w-100" alt="Banner Pandu Winata Tour Lembongan">
+                <img src="{{ $package->getImage() }}" class="d-block w-100" alt="{{ $package->title }}">
                 <div class="carousel-caption">
                     <h5> <b> {{ $package->title }} </b></h5>
                 </div>
@@ -57,7 +74,7 @@
                 @forelse ($similiar_packages as $similiar_package)
                     <div class="col-md-4">
                         <div class="card border-0 shadow-sm h-100">
-                            <img class="card-img-top" style="height: 100px; object-fit:cover" src="{{ $similiar_package->getImage() }}" alt="Card image cap">
+                            <img class="card-img-top" style="height: 100px; object-fit:cover" src="{{ $similiar_package->getImage() }}" alt="{{ $package->title }}">
                             <div class="card-body d-flex flex-column">
                                 <h5 class="card-title text-start text-warning"> <b>IDR {{ formatPrice($similiar_package->price_start) }} {{ $similiar_package->price_end != null ? '~ '. formatPrice($similiar_package->price_end) : '' }} </b> </h5>
                                 <h6 class="card-title text-start">{{ $similiar_package->title }}</h6>
