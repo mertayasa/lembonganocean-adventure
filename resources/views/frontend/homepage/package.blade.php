@@ -15,7 +15,7 @@
             <div class="mb-3">
                 <div class="row">
                     <div class="col-12 col-md-6 text-center text-md-start mb-4 mb-md-0" data-aos="fade-up">
-                        <img src="{{ $package->getImage() }}" loading="lazy" class="img-fluid" style="height: 300px; object-fit:cover" alt="{{ $package->title }}">
+                        <img src="{{ $package->getImage() }}" loading="lazy" class="img-fluid" style="min-width: 100% !important; height: 300px; object-fit:cover" alt="{{ $package->title }}">
                     </div>
                     <div class="col-12 col-md-6 px-4 px-md-0 mb-4 mb-md-0" data-aos="fade-up">
                         <h3 class="card-title text-center text-md-start text-warning"> <b>IDR {{ formatPrice($package->price_start) }} {{ $package->price_end != null ? '~ '. formatPrice($package->price_end) : '' }} </b> </h3>
