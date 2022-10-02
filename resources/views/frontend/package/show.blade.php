@@ -77,7 +77,7 @@
                             <img class="card-img-top" style="height: 100px; object-fit:cover" src="{{ $similiar_package->getImage() }}" alt="{{ $package->title }}">
                             <div class="card-body d-flex flex-column">
                                 <h5 class="card-title text-start text-warning"> <b>IDR {{ formatPrice($similiar_package->price_start) }} {{ $similiar_package->price_end != null ? '~ '. formatPrice($similiar_package->price_end) : '' }} </b> </h5>
-                                <h6 class="card-title text-start">{{ $similiar_package->title }}</h6>
+                                <h6 class="card-title text-start">{!! $similiar_package->title !!}</h6>
 
                                 <div class="mt-auto">
                                     <a href="{{ route('package.show', $similiar_package->slug) }}" class="btn btn-sm btn-warning">Learn More</a>
