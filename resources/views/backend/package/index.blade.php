@@ -46,7 +46,7 @@
                                             <div class="card-body d-flex flex-column">
                                                 <h3 class="card-title-normalized text-start text-warning"> <b>IDR {{ $package->price_start }} {{ $package->price_end != null ? '~ '.$package->price_end : '' }} </b> </h3>
                                                 <h3 class="card-title-normalized"> <b> {{ $package->title }} </b> </h3>
-                                                <p class="card-text">{{ $package->short_description }}</p>
+                                                <p class="card-text">{!! $package->short_description !!}</p>
                                                 <div class="mt-auto">
                                                     <div class="row px-2">
                                                         <div class="col-4 col-md-6 col-lg-4 px-1 mb-2">
