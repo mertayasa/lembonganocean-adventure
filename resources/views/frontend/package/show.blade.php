@@ -72,7 +72,7 @@
             <h5 class="mt-3 mt-md-4">Similiar Package : </h5>
             <div class="row">
                 @forelse ($similiar_packages as $similiar_package)
-                    <div class="col-md-4">
+                    <div class="col-md-4 mt-3">
                         <div class="card border-0 shadow-sm h-100">
                             <img class="card-img-top" style="height: 100px; object-fit:cover" src="{{ $similiar_package->getImage() }}" alt="{{ $package->title }}">
                             <div class="card-body d-flex flex-column">
