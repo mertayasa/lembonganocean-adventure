@@ -19,7 +19,7 @@
                     </div>
                     <div class="col-12 col-md-6 px-4 px-md-0 mb-4 mb-md-0" data-aos="fade-up">
                         <h3 class="card-title text-center text-md-start text-warning"> <b>IDR {{ formatPrice($package->price_start) }} {{ $package->price_end != null ? '~ '. formatPrice($package->price_end) : '' }} </b> </h3>
-                        <h3 class="card-title text-center text-md-start">{{ $package->title }}</h3>
+                        <h3 class="card-title text-center text-md-start">{!! $package->title !!}</h3>
                         <p class="text-center text-md-start">{!! $package->short_description !!}</p>
                         <div class="row">
                             <div class="col-6 mb-2 mb-md-0">
