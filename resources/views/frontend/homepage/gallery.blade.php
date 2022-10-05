@@ -98,7 +98,7 @@
             <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper thumbSwiper">
             <div class="swiper-wrapper">
               <div class="swiper-slide main-swiper">
-                <img src="{{ asset('frontend/img/gallery/gallery1.jpeg') }}" />
+                <img src="{{ asset('frontend/img/gallery/gallery1.png') }}" />
               </div>
               <div class="swiper-slide main-swiper">
                 <img src="{{ asset('frontend/img/gallery/gallery2.jpeg') }}" />
@@ -161,7 +161,7 @@
           <div thumbsSlider="" class="swiper mainSwiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide thumb-swiper">
-                    <img src="{{ asset('frontend/img/gallery/gallery1.jpeg') }}" />
+                    <img src="{{ asset('frontend/img/gallery/gallery1.png') }}" />
                   </div>
                   <div class="swiper-slide thumb-swiper">
                     <img src="{{ asset('frontend/img/gallery/gallery2.jpeg') }}" />

@@ -9,12 +9,12 @@
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Snorkling nusa lembongan and nusa penida trip - Lembongan Ocean Adventure" />
     <meta property="og:description" content="Book now! let's go snorkeling and go around nusa lembongan and nusa penida trip" />
-    <meta property="og:image" content="{{ asset('frontend/img/gallery/gallery1.jpeg') }}" />
+    <meta property="og:image" content="{{ asset('frontend/img/gallery/gallery1.png') }}" />
 
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="Snorkling nusa lembongan and nusa penida trip - Lembongan Ocean Adventure" />
     <meta name="twitter:description" content="Book now! let's go snorkeling and go around nusa lembongan and nusa penida trip" />
-    <meta name="twitter:image" content="{{ asset('frontend/img/gallery/gallery1.jpeg') }}" />
+    <meta name="twitter:image" content="{{ asset('frontend/img/gallery/gallery1.png') }}" />
 @endpush
 
 @push('styles')
