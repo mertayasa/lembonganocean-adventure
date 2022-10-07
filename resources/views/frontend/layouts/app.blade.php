@@ -118,6 +118,18 @@
             }
         })
 
+        let tripadvisorStar = 0
+        const reviewTitle = document.getElementById('reviewTitle')
+        const reviewText = document.getElementById('reviewText')
+        const tripadvisorSendBtn = document.getElementById('tripadvisorSendBtn')
+
+        tripadvisorSendBtn.addEventListener('click', (e) => {
+            e.preventDefault()
+                const url =
+                    `https://www.tripadvisor.com/UserReviewEdit-g294226-d8090367-Lembongan_Ocean_Adenture-Bali.html?ReviewText=${reviewText.value}&ReviewTitle=${reviewTitle.value}&qid10=${tripadvisorStar}`
+                window.open(url, '_blank').focus();
+        })
+
         //Get the button
         let mybutton = document.getElementById("btn-back-to-top");
 
