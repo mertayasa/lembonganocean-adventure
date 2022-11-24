@@ -70,14 +70,14 @@
         .main-swiper img {
             display: block;
             width: 100%;
-            height: 500px;
+            height: 350px;
             object-fit: contain;
         }
 
         .thumb-swiper img {
             display: block;
             width: 100%;
-            height: 100px;
+            height: 70px;
             object-fit: cover;
         }
 
