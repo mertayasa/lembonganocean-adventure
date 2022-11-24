@@ -59,9 +59,9 @@
                         <div class="card-body">
                             <div class="row">
                                 @forelse ($galleries as $gallery)
-                                    <div class="col-12 col-md-3 mb-3">
-                                        <div class="card h-100 mb-0">
-                                            <img src="{{ asset($gallery->getImage()) }}" class="card-img-top" style="height: 250px; object-fit:contain" alt="{{ $gallery->id }}">
+                                    <div class="col-6 col-md-3 mb-3">
+                                        <div class="card mb-0">
+                                            <img src="{{ asset($gallery->getImage()) }}" class="card-img-top" style="max-height: 200px; object-fit:contain" alt="{{ $gallery->id }}">
                                             <span class="p-2">{{ $gallery->caption }}</span>
                                             <button onclick="deleteModel('{{ route('gallery.destroy', $gallery->id) }}', null, 'gallery', 'this image will deleted')" class="btn btn-sm btn-danger w-100">Hapus</button>
                                         </div>
