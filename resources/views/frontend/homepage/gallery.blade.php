@@ -80,6 +80,14 @@
             height: 100px;
             object-fit: cover;
         }
+
+        .swiper-button-next{
+            color : black;
+        }
+
+        .swiper-button-prev{
+            color : black;
+        }
     </style>
 @endpush
 <!-- portfolio strats -->
