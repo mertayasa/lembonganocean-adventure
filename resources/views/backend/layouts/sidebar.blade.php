@@ -29,6 +29,11 @@
                     <i class="align-middle" data-feather="image"></i> <span class="align-middle">Banner</span>
                 </a>
             </li>
+            <li class="sidebar-item {{ isActive('gallery') }}">
+                <a class="sidebar-link" href="{{ route('gallery.index') }}">
+                    <i class="align-middle" data-feather="image"></i> <span class="align-middle">Gallery</span>
+                </a>
+            </li>
             <li class="sidebar-item {{ isActive('profile') }}">
                 <a class="sidebar-link" href="{{ route('profile.edit') }}">
                     <i class="align-middle" data-feather="user"></i> <span class="align-middle">Profil</span>
