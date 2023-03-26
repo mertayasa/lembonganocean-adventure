@@ -32,8 +32,7 @@
             <div class="col-12 col-md-6" data-aos="fade-up">
                 <h2> <b>About Us</b> </h2>
                 <p>Know more about us and what we do</p>
-                <p>Lembongan Ocean Adventure is a company owned by local Lembongan people and also supported by employees from our own island who have good experience and very friendly. br
-                    We are at the end of very beautiful and interesting manggrove beach    
+                <p>Boat captain and owner by Wayan Adis is from nusa lembongan and has huge experience off the water around here before running to lembongan ocean adventure trip senorkle he worked as a boat captain for dive boat for long time ( 10 years ) and surfing instructor also gueding and finally open he own busines he has good know lege about current, swell and marine life around nusa penida, ceningan, and nusa lembongan  
                 </p>
             </div>
             <div class="col-12 col-md-6" data-aos="fade-up">
