@@ -73,7 +73,7 @@
                 </div>
                 <div class="row m-0">
                     <div class="col-md-12 p-0 pt-4 pb-4 text-center">
-                        <img src="{{ 'frontend/img/payment_via.png' }}" alt="" srcset="">
+                        <img src="{{ asset('frontend/img/payment_via.png') }}" alt="" srcset="">
                     </div>
                 </div>
             </div>
