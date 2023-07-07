@@ -66,17 +66,14 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="section-header text-center pb-2">
-                            <h2>Office Location</h2>
-                            <p>Find us at the end of Manggrove Straight</p>
+                            <h2>Payment Method</h2>
+                            <p>We accept payment via :</p>
                         </div>
                     </div>
                 </div>
                 <div class="row m-0">
-                    <div class="col-md-12 p-0 pt-4 pb-4">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7888.512954618951!2d115.45923963189125!3d-8.667141090386263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd26d07e6407177%3A0x9b0dd209ea9eac6d!2sWarung%20paradise!5e0!3m2!1sen!2sid!4v1665151314219!5m2!1sen!2sid"
-                            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="col-md-12 p-0 pt-4 pb-4 text-center">
+                        <img src="{{ 'frontend/img/payment_via.png' }}" alt="" srcset="">
                     </div>
                 </div>
             </div>
@@ -125,6 +122,24 @@
                                     id="tripadvisorSendBtn">Continue</button>
                             </div>
                         </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6" data-aos="{{ Request::is('/') ? 'fade-up' : '' }}">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-header text-center pb-2">
+                            <h2>Office Location</h2>
+                            <p>Find us at the end of Manggrove Straight</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row m-0">
+                    <div class="col-md-12 p-0 pt-4 pb-4">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7888.512954618951!2d115.45923963189125!3d-8.667141090386263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd26d07e6407177%3A0x9b0dd209ea9eac6d!2sWarung%20paradise!5e0!3m2!1sen!2sid!4v1665151314219!5m2!1sen!2sid"
+                            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>
