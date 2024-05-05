@@ -80,6 +80,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://readybali.com">readybali.com</a>
+                    </li>
                 </ul>
             </div>
         </div>
